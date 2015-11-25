@@ -37,6 +37,13 @@ Specifying minimum and maximum amount of RAM to spesific VM
 ## Limitation
 Only working on Linux
 
+### Experiment Setup
+1. Memory
+4 VM with 1 CPU for each VM. The first and second VM using Dynamic Memory with Minimum Memory 256 MB and Maximum Memory 1 GB. The third and fourth VM using static memory of 512 MB.
+2. CPU
+First I will initiate 2 VM, first VM will be allocated with 1 physical CPU and second VM will be allocated with vCPU cap with value 100.
+
+
 ## Current Issues
 - Can't find other alternative to static and dynamic memory management
 - Need software to test the configuration
@@ -46,4 +53,4 @@ Only working on Linux
 - [X] Presentation of Thesis Proposal (on 30 September 2015)
 - [X] Successfully enable dynamic memory management (on 29 October 2015)
 - [X] Successfully configure a VM using vCPU management system (on 16 November 2015)
-- [ ] Configure a set of VMs with 3 types of vCPU management system and test it
+- [ ] Conduct experiment about Dynamic vs Static Memory
