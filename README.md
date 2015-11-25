@@ -41,7 +41,7 @@ Only working on Linux
 1. Memory
 4 VM with 1 CPU for each VM. The first and second VM using Dynamic Memory with Minimum Memory 256 MB and Maximum Memory 1 GB. The third and fourth VM using static memory of 512 MB.
 2. CPU
-First I will initiate 2 VM, first VM will be allocated with 1 physical CPU and second VM will be allocated with vCPU cap with value 100.
+2 VM will use same static memory. The first VM will be initiated using spesific 1 vCPU and 1 vCPU using vCPU cap. Then on the next session there will be 2 VM. The first VM will be capped on 100 with priority of 256 and, and the second VM will be given priority of 256.
 
 
 ## Current Issues
